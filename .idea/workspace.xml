@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d3f9f92-a585-4ce0-b9b0-4f963743da7a" name="変更" comment="nest追加" />
+    <list default="true" id="4d3f9f92-a585-4ce0-b9b0-4f963743da7a" name="変更" comment="nest削除" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +42,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630717228537</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nest削除">
+      <created>1630718114124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630718114124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,6 +68,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="nest追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="nest追加" />
+    <MESSAGE value="nest削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="nest削除" />
   </component>
 </project>
