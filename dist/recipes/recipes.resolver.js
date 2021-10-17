@@ -12,6 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.RecipesResolver = void 0;
 const graphql_1 = require("@nestjs/graphql");
 const recipe_1 = require("./recipe");
+const recipe_model_1 = require("./recipe.model");
 const recipeTable = [
     {
         id: '1',
@@ -28,6 +29,15 @@ const recipeTable = [
 ];
 let RecipesResolver = class RecipesResolver {
     async recipes() {
+        const object1 = new recipe_model_1.RecipeModel('string1', true, 0);
+        const object2 = new recipe_model_1.RecipeModel('string2', false, 1);
+        const object3 = new recipe_model_1.RecipeModel('string3', true, 2);
+        const list = [object1, object2, object3];
+        console.log(list);
+        const a = true;
+        const b = false;
+        console.log(a > b);
+        console.log(a < b);
         return recipeTable;
     }
 };
